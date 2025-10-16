@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carrito de Compras | Oceana</title>
+	<link rel="shortcut icon" href="marca1.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/tiny-slider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body class="cart-page">
+    <!-- Navbar -->
+    <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Oceana navigation bar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Oceana<span>.</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsOceana" aria-controls="navbarsOceana" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsOceana">
+          <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+            <li><a class="nav-link" href="index.html">Inicio</a></li>
+            <li><a class="nav-link" href="shop.html">Productos</a></li>
+            <li class="nav-item active"><a class="nav-link" href="cart.html">Carrito</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="intro-excerpt text-center">
+              <h1>Tu Carrito 🛒</h1>
+              <p class="lead">Revisa los productos antes de finalizar la compra</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carrito -->
+    <div class="untree_co-section before-footer-section">
+      <div class="container">
+        <div class="row mb-5">
+          <form class="col-md-12" method="post">
+            <div class="site-blocks-table">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="product-thumbnail">Imagen</th>
+                    <th class="product-name">Producto</th>
+                    <th class="product-price">Precio</th>
+                    <th class="product-quantity">Cantidad</th>
+                    <th class="product-total">Total</th>
+                    <th class="product-remove">Eliminar</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Se rellena dinámicamente con custom.js -->
+                </tbody>
+              </table>
+            </div>
+          </form>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <a href="shop.html" class="btn btn-outline-black btn-sm btn-block">← Seguir comprando</a>
+          </div>
+          <div class="col-md-6 pl-5">
+            <div class="row justify-content-end">
+              <div class="col-md-7">
+                <div class="row">
+                  <div class="col-md-12 text-right border-bottom mb-3">
+                    <h3 class="text-black h4 text-uppercase">Totales</h3>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <span class="text-black">Subtotal</span>
+                  </div>
+                  <div class="col-md-6 text-right">
+                    <strong id="subtotal" class="text-black">$0</strong>
+                  </div>
+                </div>
+                <div class="row mb-5">
+                  <div class="col-md-6">
+                    <span class="text-black">Total</span>
+                  </div>
+                  <div class="col-md-6 text-right">
+                    <strong id="total" class="text-black">$0</strong>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <a href="checkout.html" class="btn btn-black btn-lg py-3 btn-block">Finalizar compra</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+	<!-- Start Footer Section -->
+		<footer class="footer-section">
+	<div class="container relative">
+
+		<!-- <div class="sofa-img">
+			<img src="images/marca1.png" alt="Logo Oceana" class="img-fluid">
+		</div> -->
+
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="subscription-form">
+					<h3 class="d-flex align-items-center">
+						<span class="me-1"><img src="images/envelope-outline.svg" alt="Suscripción" class="img-fluid"></span>
+						<span>Suscríbete a nuestro boletín</span>
+					</h3>
+
+					<form action="#" class="row g-3">
+						<div class="col-auto">
+							<input type="text" class="form-control" placeholder="Ingresa tu nombre">
+						</div>
+						<div class="col-auto">
+							<input type="email" class="form-control" placeholder="Ingresa tu correo">
+						</div>
+						<div class="col-auto">
+							<button class="btn btn-primary">
+								<span class="fa fa-paper-plane"></span>
+							</button>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row g-5 mb-5">
+			<div class="col-lg-4">
+				<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Oceana<span>.</span></a></div>
+				<p class="mb-4">En Oceana creemos en la moda de playa que combina estilo, comodidad y frescura. Descubre nuestros vestidos de baño, bolsos y sombreros diseñados para brillar bajo el sol.</p>
+
+				<ul class="list-unstyled custom-social">
+					<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+					<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+					<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+					<li><a href="#"><span class="fa fa-brands fa-tiktok"></span></a></li>
+				</ul>
+			</div>
+
+			<div class="col-lg-8">
+				<div class="row links-wrap">
+					<div class="col-6 col-sm-6 col-md-3">
+						<ul class="list-unstyled">
+							<li><a href="#">Nosotros</a></li>
+							<li><a href="#">Colecciones</a></li>
+							<li><a href="#">Contáctanos</a></li>
+						</ul>
+					</div>
+
+					<div class="col-6 col-sm-6 col-md-3">
+						<ul class="list-unstyled">
+							<li><a href="#">Soporte</a></li>
+							<li><a href="#">Preguntas frecuentes</a></li>
+							<li><a href="#">Guía de tallas</a></li>
+						</ul>
+					</div>
+
+					<div class="col-6 col-sm-6 col-md-3">
+						<ul class="list-unstyled">
+							<li><a href="#">Trabaja con nosotros</a></li>
+							<li><a href="#">Nuestro equipo</a></li>
+							<li><a href="#">Política de privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+						</ul>
+					</div>
+
+					<div class="col-6 col-sm-6 col-md-3">
+						<ul class="list-unstyled">
+							<li><a href="#">Vestidos de baño</a></li>
+							<li><a href="#">Sombreros</a></li>
+							<li><a href="#">Bolsos de playa</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="border-top copyright">
+			<div class="row pt-4">
+				<div class="col-lg-6">
+					<p class="mb-2 text-center text-lg-start">
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> Oceana. Todos los derechos reservados.
+					</p>
+				</div>
+
+				<div class="col-lg-6 text-center text-lg-end">
+					<ul class="list-unstyled d-inline-flex ms-auto">
+						<li class="me-4"><a href="#">Términos &amp; Condiciones</a></li>
+						<li><a href="#">Política de Privacidad</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</footer>
+<!-- End Footer Section -->	
+
+
+
+
+    <!-- Scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
