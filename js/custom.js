@@ -72,7 +72,7 @@
       aviso.style.position = 'fixed';
       aviso.style.bottom = '30px';
       aviso.style.right = '30px';
-      aviso.style.background = '#28a745';
+      aviso.style.background = '#11398dff';
       aviso.style.color = '#fff';
       aviso.style.padding = '12px 20px';
       aviso.style.borderRadius = '8px';
